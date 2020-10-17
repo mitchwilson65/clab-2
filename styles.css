@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.footer {
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
 #everything {
   background: rgb(250,42,42);
   background: linear-gradient(90deg, rgba(250,42,42,1) 0%, rgba(245,99,83,1) 35%, rgba(255,179,0,1) 100%);
@@ -55,6 +60,10 @@
 #quotes {
   z-index: +1;
   margin-top: 170px;
+}
+
+#head-quote {
+  text-align: left;
 }
 
 .quote {
